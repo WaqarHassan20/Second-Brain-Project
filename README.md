@@ -6,11 +6,11 @@ Brainly is a full-stack application that helps users organize and manage content
 
 ### Sign Up Page
 
-![Sign Up Page](./02_Frontend/src/assets/Images/SignUpPage.jpeg)
+![Sign Up Page](./02_Frontend/src/assets/Images/SignupPage.jpeg)
 
 ### Sign In Page
 
-![Sign In Page](./02_Frontend/src/assets/Images/SignInPage.jpeg)
+![Sign In Page](./02_Frontend/src/assets/Images/SigninPage.jpeg)
 
 ## Dashboard
 

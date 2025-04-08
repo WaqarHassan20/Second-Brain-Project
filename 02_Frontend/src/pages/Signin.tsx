@@ -26,7 +26,8 @@ export function Signin() {
       const jwt = response.data.token;
       localStorage.setItem("token", jwt);
       navigate("/dashboard");
-    } catch (err) {
+    } catch (err: unknown) {
+      console.error(err);
       setError("Invalid username or password");
       setTimeout(() => setError(""), 3000);
     } finally {
@@ -53,7 +54,7 @@ export function Signin() {
 
             <div>
               <Input ref={usernameRef} placeholder="Username" />
-              <Input ref={passwordRef} placeholder="Password" type="password" />
+              <Input ref={passwordRef} placeholder="Password" />
             </div>
 
             <div className="flex justify-center items-center px-8 py-5 mt-2">
